@@ -69,3 +69,7 @@ println();
 import foo from './js/utils2'
 foo(app);
 println();
+
+import './libs/jquery-3.5.1'
+print('load traditional module jquery -> ')
+println(jQuery.fn.jquery)
