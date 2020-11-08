@@ -4,9 +4,8 @@ let app = document.getElementById('root');
 
 
 function print(...words) {
-    let appi = app;
     if(words) {
-        words.forEach((w)=>appi.append(w));
+        words.forEach((w)=>app.append(w));
     }
 }
 
